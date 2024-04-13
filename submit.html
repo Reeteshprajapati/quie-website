@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>first</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <style>
+    body {
+      background-color: rgb(81, 203, 219);
+      /* background-image: url(VID-20240413-WA0003.mp4); */
+    }
+
+    NAV {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      float: right;
+      position: absolute;
+      top: 32px;
+      right: 40px;
+      font-size: 18px;
+
+    }
+
+    NAV UL LI {
+      display: inline-block;
+      list-style: none;
+      margin: 10PX 20PX;
+      font-weight: 700;
+
+    }
+
+    NAV UL LI a {
+      color: rgb(235, 72, 72);
+      border-radius: 40px;
+      padding: 9px;
+      text-decoration: none;
+      font-size: 25px;
+      position: relative;
+      text-transform: uppercase;
+      margin-right: 50px;
+      font-weight: 900;
+      font-style: italic;
+      border: 2px solid white;
+      transition: color 0.2s;
+      box-shadow: 0px 0px 5px 1px;
+    }
+
+    NAV UL input {
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 6px 0px;
+      font-style: italic;
+      font-weight: 700;
+      font-size: 16px;
+      border: none;
+      outline: none;
+    }
+
+    NAV UL .btn {
+      padding: 5px;
+      font-style: italic;
+      font-weight: 600;
+      border-radius: 10px;
+      cursor: pointer;
+
+      font-size: 18px;
+      border: none;
+      transition: all 0.5s;
+    }
+
+    NAV UL .btn:hover {
+      transform: scale(1.1);
+    }
+
+    NAV UL LI a:hover {
+      color: rgb(4, 20, 247);
+    }
+
+    header h4 {
+      text-transform: uppercase;
+      font-style: italic;
+      position: absolute;
+      left: 170px;
+      top: 10px;
+      font-size: 33px;
+      font-weight: 800;
+      cursor: pointer;
+
+    }
+
+    header h4 span {
+      color: green;
+    }
+
+    .hro {
+      box-shadow: 0px 0px 1px 0px;
+    }
+
+    .hr {
+      margin-top: 115px;
+      box-shadow: 0px 0px 1px 0px;
+    }
+
+    h5 {
+      font-size: 60px;
+      background-color: rgb(8, 114, 8);
+      -webkit-background-clip: text;
+      color: transparent;
+      text-transform: capitalize;
+      font-style: italic;
+      word-spacing: 1px;
+      position: absolute;
+      left: 500px;
+
+    }
+
+    h6 {
+      background-color: rgb(8, 114, 8);
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 36px;
+      position: absolute;
+      left: 350px;
+      top: 290px;
+      text-transform: capitalize;
+      font-style: italic;
+      word-spacing: 1px;
+
+    }
+
+    footer {
+      box-shadow: 0px 0px 5px 0px;
+      height: 59px;
+      margin-top: 460px;
+      position: relative;
+    }
+
+    footer h3 {
+
+      position: absolute;
+      left: 500px;
+      top: -6;
+      font-size: 22px;
+      text-transform: capitalize;
+    }
+
+    div {
+      height: 300px;
+      width: 750px;
+      border-radius: 20px;
+      /* box-shadow: 0px 0px 8px 1px black; */
+      position: absolute;
+      left: 300px;
+      top: 190px;
+    }
+
+    .btn1 {
+      font-size: 19px;
+      font-style: italic;
+      font-weight: 600;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid black;
+      position: absolute;
+      top: 500px;
+      left: 600px;
+      box-shadow: 0px 0px 5px 0px;
+      cursor: pointer;
+      background-color: rgb(24, 110, 190);
+    }
+
+    .btn1 a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* video{
+      position: absolute;
+     background-size: cover;
+    } */
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h4>QUIZES <span>..</span></h4>
+    <nav>
+
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="#">about </a></li>
+        <input type="text" placeholder="search here...">
+        <button class="btn">search</button>
+      </ul>
+    </nav>
+  </header>
+  <hr class="hro">
+  <hr class="hr">
+
+  <div></div>
+  <h5>'thank you' </h5>
+  <h6> and please wait get certificate few hours.</h6>
+  <!-- <video autoplay>
+    <source src="VID-20240413-WA0003.mp4">
+  </video> -->
+  <button class="btn1"><a href="selectquize.html">NEXT COURSE</a></button>
+  <footer>
+    <h3>all course provide on this website...</h3>
+  </footer>
+</body>
+
+</html>
